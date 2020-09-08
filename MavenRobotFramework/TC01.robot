@@ -7,7 +7,7 @@ Library    Dialogs
 *** Test Cases ***
 FirstTest  
    Open Browser     https://google.com        chrome
-
+   Sleep    3    
    Wait Until Page Contains    Google     
    
    Close Browser  
